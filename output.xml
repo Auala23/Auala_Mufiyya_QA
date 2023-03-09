@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.4 on win32)" generated="20230309 13:18:36.597" rpa="false" schemaversion="3">
+<suite id="s1" name="Masuk" source="c:\Users\Bella\Fiya\masuk.robot">
+<test id="s1-t1" name="Log in" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.demoblaze.com/index.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230309 13:18:38.120" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com/index.html'.</msg>
+<status status="PASS" starttime="20230309 13:18:38.102" endtime="20230309 13:18:41.893"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:login2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230309 13:18:41.916" level="INFO">Clicking element 'id:login2'.</msg>
+<status status="PASS" starttime="20230309 13:18:41.906" endtime="20230309 13:18:42.233"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:loginusername</arg>
+<arg>Auala Mufyya</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230309 13:18:42.260" level="INFO">Typing text 'Auala Mufyya' into text field 'id:loginusername'.</msg>
+<status status="PASS" starttime="20230309 13:18:42.252" endtime="20230309 13:18:43.080"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:loginpassword</arg>
+<arg>FiyaAuala123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230309 13:18:43.095" level="INFO">Typing text 'FiyaAuala123' into text field 'id:loginpassword'.</msg>
+<status status="PASS" starttime="20230309 13:18:43.087" endtime="20230309 13:18:43.426"/>
+</kw>
+<status status="PASS" starttime="20230309 13:18:38.074" endtime="20230309 13:18:43.449"/>
+</test>
+<status status="PASS" starttime="20230309 13:18:36.628" endtime="20230309 13:18:43.539"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Masuk">Masuk</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
